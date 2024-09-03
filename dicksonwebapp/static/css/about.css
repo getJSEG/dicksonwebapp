@@ -1,0 +1,60 @@
+.about-us-hero-images{
+    height: 30em;
+    position: relative;
+}
+
+.background-img{
+    width: 100%;
+    height: 25em;
+    position: absolute;
+}
+
+.background-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-us-information-container{
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    color: #424242;
+}
+
+.about-us-information-container h1{
+    margin-bottom: 1em;
+}
+
+.about-us-logo{
+    max-width: 25em;
+    margin:auto;
+    padding-top: 3em;
+    position: relative;
+    text-align: center;
+}
+
+.about-us-logo img{
+    width: 95%;
+}
+
+
+.about-us-information-container div{
+    margin: auto;
+    padding-bottom: 2em;
+    text-align: left;
+    text-wrap:pretty;
+}
+
+.about-us-information-container div h4{
+    font-size: 20pt;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+    .about-us-logo{
+        max-width: 35em;
+    }
+}

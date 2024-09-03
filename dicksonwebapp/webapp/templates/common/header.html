@@ -1,0 +1,42 @@
+{% load static %}
+
+<div class="navigation-header ">   
+    <div class="logo-container">
+        <a href={% url  'home'%}> 
+            <img src="{% static "assets/logo-1.png"%}" alt="Crane Logo"> 
+        </a>
+    </div>
+
+    <div class="nav-container desktop-nav">
+        <ul> 
+            <li> <a href={% url  'home'%}> Home </a> </li>
+            <li> <a href={% url  'about'%}> Request a Quote </a> </li>
+            <li> <a href=""> Products </a> </li>
+            <li> <a href={% url  'about'%}> About us</a> </li>  
+            <li> <a href=""> Gallery </a> </li>  
+        </ul>
+    </div>
+
+    <div class="mobile-nav-button burger" id="nav-burger">
+        <span> </span>
+        <span> </span>
+        <span> </span>
+    </div>
+</div>
+
+
+<div class="mobile-nav close"  id="mobile-navigation">
+    <div class="mobile-nav-container">
+        <ul> 
+            <li> <a href={% url  'home'%}> Home </a> </li>
+            <li> <a href={% url  'contact'%}> Request a Quote </a> </li>
+            <li> <a href=""> Products </a> </li>
+            <li> <a href={% url  'about'%}> About us</a> </li>  
+            <li> <a href=""> Gallery </a> </li>  
+        </ul>
+    </div>
+</div>
+
+<div class="" id="mobile-nav-background">
+
+</div>

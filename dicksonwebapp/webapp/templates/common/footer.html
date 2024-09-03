@@ -1,0 +1,35 @@
+{% load static %}
+
+<footer class="bottom-footer">
+
+    <div class="footer-wrapper">
+
+        <div class="footer-logo">
+            <img src="{% static "assets/logo-1.png"%}" alt="Crane Logo"> 
+        </div>
+        
+        <div class="footer-nav-container">
+    
+            <div class="company">
+                <h1> Company </h1>
+                <p> <a href={% url  'about' %}> About us </a> </p>
+                <p> <a href={% url  'contact' %}> Contact us </a> </p>
+                <p> <a href="#"> Products </a> </p>
+                <p> <a href="#"> Gallery </a> </p>
+            </div>
+    
+            <div class="contact-us">
+                <h1> Contact Us </h1>
+                <p> 678-361-2381 </p>
+                <p> Dicksonsign@gmail.com </p>
+            </div>
+    
+            <div class="footer-social">
+                <h1> Follow us on </h1>
+            </div>
+        </div> 
+
+    </div>
+
+    <div class="rights-reserved"> Copyright © 2024 Dickson Sign Company, Inc. All Rights Reserved. Terms <span>&#38;</span> Conditions </div>
+</footer>
